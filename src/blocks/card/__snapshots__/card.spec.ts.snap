@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Card -> Element Render Checks should render correct text 1`] = `
+HTMLCollection [
+  <h1
+    class="header"
+  >
+    Powerlines
+  </h1>,
+]
+`;

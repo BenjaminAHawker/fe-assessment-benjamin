@@ -1,4 +1,40 @@
+$text-color: #808080;
+
+h1,h2,h3{
+  padding:0;
+  margin:0;
+};
+
 .card {
   max-width: 32rem;
-  background-color: #f2f2f2;
+  margin-bottom: 20px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  .imageFull {
+    border-radius: 5px;
+  }
+  .header {
+    color: $text-color;
+    font-size: 32px;
+    margin: .5em 0;
+  }
+  .information {
+    color: $text-color;
+    font-size: 18px;
+    font-weight: 500;
+  }
+  .cta {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color: white;
+    background-color: #033042;
+    border-radius: 5px;
+    padding: .5em;
+    font-weight: 800;
+  }
 }

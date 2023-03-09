@@ -1,9 +1,9 @@
-export type Grid = {
-    items: GridItem[];
+export interface IGrid {
+    items: IGridItem[];
 }
 
-export type GridItem = {
+export interface IGridItem {
     title: string;
     body: string;
     color: string;
-}
+} 
